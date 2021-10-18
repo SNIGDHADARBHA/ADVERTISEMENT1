@@ -7,6 +7,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <div class="container" >
  <% if !user_signed_in? %>
   <p class="sign_in"><%= link_to "Login", new_user_session_path %></p>
   <% end %>
@@ -22,5 +23,6 @@
   <%= link_to "New Post", new_post_path %>
   
   <%= yield %>
+  </div>
   </body>
 </html>
