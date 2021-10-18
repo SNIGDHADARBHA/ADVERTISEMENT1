@@ -3,3 +3,4 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'clearance', '~> 1.15.1'
 gem 'nokogiri', '1.6.8.1'
+gen "devise", "-> 4.1", '>= 4.1.1"
